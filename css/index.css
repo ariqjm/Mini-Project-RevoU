@@ -20,16 +20,16 @@
   /* transition: all 0.3s ease-in-out; */
 }
 
-body {
+/* body {
   min-height: 3000px;
-}
+} */
 
 .container {
   max-width: 1420px;
 }
 
 .section-margin {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 /* Header/Navbar Start */
@@ -45,7 +45,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 3px rgba(199, 197, 197, 0.75);
 }
 
 .navbar .container {
@@ -187,7 +187,8 @@ body {
   width: 100%;
 }
 
-.content-right .btn {
+.content-right .btn-send {
+  font-family: var(--heading-font);
   font-weight: 800;
   font-size: 15px;
   color: white;
@@ -236,6 +237,11 @@ body {
 /* Home End */
 
 /* Our Package Start */
+
+.our-package {
+  padding-bottom: 50px;
+  box-shadow: 0px 1px 1px rgba(199, 197, 197, 0.75);
+}
 
 .our-package .row1 {
   background-color: var(--primary-color);
@@ -299,3 +305,85 @@ body {
 }
 
 /* Our Package End */
+
+/* Call Action Start */
+
+.call-action {
+  padding-bottom: 30px;
+  /* background-color: antiquewhite; */
+  box-shadow: 0px 1px 1px rgba(199, 197, 197, 0.75);
+}
+
+.call-action .container {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.call-action .container .heading {
+  font-family: var(--heading-font);
+  font-weight: 800;
+  font-size: 30px;
+  color: var(--heading-color);
+}
+
+.call-action .container .subheading {
+  margin: auto;
+  font-size: 15px;
+  font-weight: 300;
+  width: 550px;
+  margin-top: 20px;
+  color: var(--subheading-color);
+}
+
+.call-action .container .btn-c {
+  margin-top: 50px;
+}
+
+.btn-c .btn-call-action {
+  background-color: var(--btn-color);
+  color: white;
+  padding: 15px 50px;
+  font-family: var(--heading-font);
+  font-weight: 800;
+  border-radius: 3px;
+}
+
+/* Call Action End */
+
+/* Footer Start */
+
+.footer .container {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.footer .container span {
+  font-family: var(--heading-font);
+  font-size: 20px;
+  color: var(--heading-color);
+}
+
+.footer .container .row1 {
+  margin-top: 10px;
+}
+
+.container .row1 .text-pp {
+  margin-left: 15px;
+}
+
+.container .row1 a {
+  color: var(--subheading-color);
+}
+
+.footer .container .row2 {
+  color: var(--subheading-color);
+}
+
+.container .row2 span {
+  font-family: var(--main-font);
+  color: var(--subheading-color);
+  font-weight: 300;
+  font-size: 15px;
+  margin-left: 10px;
+}
+/* Footer End */
