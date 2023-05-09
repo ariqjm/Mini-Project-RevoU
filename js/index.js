@@ -28,3 +28,14 @@ function showDivs(n) {
 setInterval(() => {
   plusDivs(1);
 }, 3000);
+
+function validateForm() {
+  const name = document.forms["message-form"]["full-name"].value;
+  const email = document.forms["message-form"]["email"].value;
+  const nohp = document.forms["message-form"]["nohp"].value;
+
+  if (name == "" || email == "" || nohp == "") {
+    alert("Tidak boleh ada yang kosong");
+    return false;
+  }
+}
