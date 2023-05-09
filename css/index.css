@@ -17,6 +17,7 @@
   box-sizing: border-box !important;
   text-decoration: none !important;
   list-style-type: none;
+  /* overflow: hidden; */
   /* transition: all 0.3s ease-in-out; */
 }
 
@@ -147,6 +148,8 @@
 .content-right h4 {
   font-family: var(--heading-font);
   font-weight: 500;
+  font-size: 20px;
+  color: var(--heading-color);
 }
 
 .content-right h5 {
@@ -166,14 +169,16 @@
 }
 
 .content-right label {
-  font-weight: 800;
+  font-family: var(--heading-font);
+  font-weight: 500;
   font-size: 12px;
+  color: var(--heading-color);
 }
 
-.content-right .form-input-name,
-.form-input {
+.content-right .form-input {
   margin: 5px 0px 30px 0px;
-  padding: 10px 60px 10px 10px;
+  padding: 10px 0;
+  width: 100%;
   display: block;
   border: 1px solid var(--subheading-color);
   box-shadow: 0px 0px 1px 1px var(--primary-color);
@@ -197,7 +202,7 @@
 }
 
 .home .row3 {
-  max-width: 30%;
+  width: 30%;
   text-align: left;
   margin-top: 60px;
   margin-left: 23%;
@@ -222,6 +227,7 @@
   height: 40px;
   justify-content: center;
   align-items: center;
+  color: var(--subheading-color);
 }
 
 .number1 h5 {
@@ -387,3 +393,75 @@
   margin-left: 10px;
 }
 /* Footer End */
+
+/* Responsive */
+
+/* Ukuran Tablet atau Ipad */
+@media screen and (max-width: 768px) {
+  .navbar .container {
+    padding: 0 20px;
+  }
+
+  .home .row2 {
+    flex-direction: column;
+    align-items: center;
+    /* background-color: black; */
+    /* width: 100%; */
+  }
+
+  .home .row2 .content-left {
+    /* background-color: aqua; */
+    width: 50%;
+  }
+
+  .row2 .content-right {
+    width: 70%;
+    margin: 30px 0 0 0;
+  }
+
+  .row2 .content-right h4 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .content-right h5 {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .content-right .form-input {
+    width: 100%;
+  }
+
+  .home .row3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px auto;
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  .row3 h4.text-information {
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .row3 .number1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 50px;
+  }
+
+  .number1 h5 {
+    justify-content: start;
+    font-size: 15px;
+  }
+
+  .item .text-our-package .title {
+    text-align: start;
+  }
+}
