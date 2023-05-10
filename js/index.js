@@ -26,7 +26,7 @@ function showDivs(n) {
 }
 
 setInterval(() => {
-  plusDivs(1);
+  // plusDivs(1);
 }, 3000);
 
 function validateForm() {
