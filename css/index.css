@@ -732,3 +732,9 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .home .heading {
+    width: 350px;
+  }
+}
