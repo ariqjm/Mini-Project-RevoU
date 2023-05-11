@@ -1,2 +1,3 @@
 Udah di push, tapi pas di buka website nya. Codingan terbaru nya kadang masih belum ke detect
-Sama si button click buat slide banner di (command/dimatiin, tp masih ada codingannya di index.html nya), soalnya pas saya liat di hp asli saya. si posisi button nya gajelas tidak sesuai. padahal kalau di liat menggunakan browser dalam mode resolusi mobile, udah sesuai si posisi button banner nya. Oleh sebab itu sama saya mending di slash command-in saja, yg penting si auto slide banner nya udah jalan
+Sama si button click buat slide banner di (command/dimatiin, tp masih ada codingannya di index.html nya), soalnya pas saya liat di hp asli saya. si posisi button nya gajelas tidak sesuai. 
+Padahal kalau di liat menggunakan browser pc/laptop dalam mode resolusi mobile, udah sesuai si posisi button banner nya. Oleh sebab itu sama saya mending di slash command-in saja, yg penting si auto slide banner nya udah jalan
